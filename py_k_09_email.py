@@ -42,7 +42,7 @@ def email_text(message,mail_from,mail_from_psw,mail_to):
         print("邮件发送成功!")
         server.quit()
     except smtplib.SMTPException as e:
-        print("邮件发送成功!")
+        print("邮件发送失败!")
         print(e)
 
 
@@ -90,7 +90,7 @@ def email_file(message,mail_from,mail_from_psw,mail_to):
         print("邮件发送成功!")
         server.quit()
     except smtplib.SMTPException as e:
-        print("邮件发送成功!")
+        print("邮件发送失败!")
         print(e)
 
 
@@ -138,7 +138,7 @@ def email_img(message,mail_from,mail_from_psw,mail_to):
         print("邮件发送成功!")
         server.quit()
     except smtplib.SMTPException as e:
-        print("邮件发送成功!")
+        print("邮件发送失败!")
         print(e)
 
 
